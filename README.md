@@ -301,7 +301,7 @@ The project provides practical experience in **deep learning, computer vision, v
 
 ---
 
-# 🙏 Acknowledgement
+Acknowledgement
 
 This project is based on an existing open-source implementation by Dhruti Patel (2021)
 The original implementation has been modified and extended for the requirements of this project.
