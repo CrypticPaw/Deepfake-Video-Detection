@@ -54,55 +54,6 @@ The application also provides a confidence score associated with the prediction.
 
 ---
 
-🔄 System Workflow
-             ┌─────────────────────┐
-             │        User         │
-             └──────────┬──────────┘
-                        │
-                        ▼
-             ┌─────────────────────┐
-             │   ReactJS Frontend  │
-             │    Video Upload     │
-             └──────────┬──────────┘
-                        │
-                        ▼
-             ┌─────────────────────┐
-             │   Flask Backend     │
-             │     server.py       │
-             └──────────┬──────────┘
-                        │
-                        ▼
-             ┌─────────────────────┐
-             │  Video Processing   │
-             │  & Frame Extraction │
-             └──────────┬──────────┘
-                        │
-                        ▼
-             ┌─────────────────────┐
-             │    ResNeXt CNN      │
-             │ Spatial Features    │
-             └──────────┬──────────┘
-                        │
-                        ▼
-             ┌─────────────────────┐
-             │        LSTM         │
-             │ Temporal Features   │
-             └──────────┬──────────┘
-                        │
-                        ▼
-             ┌─────────────────────┐
-             │    Prediction       │
-             │   REAL / FAKE       │
-             │ + Confidence Score  │
-             └──────────┬──────────┘
-                        │
-                        ▼
-             ┌─────────────────────┐
-             │   ReactJS Frontend  │
-             │   Display Result    │
-             └─────────────────────┘
----
-
 ## ✨ Key Features
 
 * Deepfake video detection using deep learning.
@@ -275,7 +226,6 @@ After the application opens:
 
 The model follows the pipeline below:
 
-```text
 Input Video
      ↓
 Frame Extraction
@@ -295,7 +245,6 @@ Classification
 REAL / FAKE
      ↓
 Confidence Score
-```
 
 ---
 
