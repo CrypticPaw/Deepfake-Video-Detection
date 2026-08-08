@@ -54,9 +54,7 @@ The application also provides a confidence score associated with the prediction.
 
 ---
 
-## 🔄 System Workflow
-
-`
+🔄 System Workflow
              ┌─────────────────────┐
              │        User         │
              └──────────┬──────────┘
@@ -103,8 +101,6 @@ The application also provides a confidence score associated with the prediction.
              │   ReactJS Frontend  │
              │   Display Result    │
              └─────────────────────┘
-``
-
 ---
 
 ## ✨ Key Features
